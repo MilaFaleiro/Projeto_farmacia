@@ -28,5 +28,5 @@ O projeto é composto por duas partes principais:
 
 ## 📚 Autores
 
-- **Camilla Faleiro** - Desenvolvedor Backend
+- **Camilla Faleiro** - Desenvolvedora Backend
 - **Maria Julia Xavier** - Desenvolvedora Frontend
