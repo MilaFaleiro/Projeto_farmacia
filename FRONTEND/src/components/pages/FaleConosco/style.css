@@ -1,0 +1,79 @@
+.contato {
+  background-color: var(--preto);
+  color: var(--branco);
+  min-height: 100vh;
+  padding: 3rem 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contato h2 {
+  color: var(--dourado);
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  text-transform: uppercase;
+}
+
+.contato form {
+  background-color: var(--preto-claro);
+  border: 1px solid var(--dourado);
+  border-radius: 10px;
+  padding: 2rem;
+  width: 100%;
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 0 15px rgba(212, 175, 55, 0.2);
+}
+
+.contato input,
+.contato textarea {
+  background-color: #111;
+  border: 1px solid #333;
+  color: var(--branco);
+  padding: 0.75rem;
+  margin-bottom: 1rem;
+  border-radius: 6px;
+}
+
+.contato input:focus,
+.contato textarea:focus {
+  border-color: var(--dourado);
+  outline: none;
+  box-shadow: 0 0 8px rgba(212, 175, 55, 0.4);
+}
+
+.contato button {
+  background-color: var(--dourado);
+  color: #000;
+  font-weight: bold;
+  border: none;
+  padding: 0.75rem;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.contato button:hover {
+  background-color: #e2c15f;
+  transform: translateY(-2px);
+}
+
+.sucesso {
+  color: var(--dourado);
+  background: rgba(212, 175, 55, 0.1);
+  border: 1px solid var(--dourado);
+  border-radius: 6px;
+  padding: 0.5rem 1rem;
+  margin-top: 1rem;
+}
+
+.erro {
+  color: var(--erro);
+  background: rgba(255, 91, 91, 0.1);
+  border: 1px solid var(--erro);
+  border-radius: 6px;
+  padding: 0.5rem 1rem;
+  margin-top: 1rem;
+}

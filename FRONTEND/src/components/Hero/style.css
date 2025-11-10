@@ -1,0 +1,46 @@
+/* Hero styles — tema preto e dourado */
+
+.hero {
+	background: linear-gradient(180deg, var(--surface, #0b0b0b), #070707);
+	padding: 4rem 1rem;
+	text-align: center;
+	color: var(--gold, #D4AF37);
+}
+
+.hero h2 {
+	font-size: 2.25rem;
+	margin: 0 0 0.5rem 0;
+	color: var(--gold, #D4AF37);
+}
+
+.hero p {
+	color: var(--muted, #bdbdbd);
+	margin: 0 0 1rem 0;
+	font-size: 1.05rem;
+}
+
+.hero .btn {
+	margin: 0.5rem;
+	padding: 0.6rem 1.1rem;
+	border-radius: 8px;
+	background: var(--gold, #D4AF37);
+	color: #111;
+	text-decoration: none;
+	display: inline-block;
+}
+
+.hero .btn-sec {
+	background: transparent;
+	border: 1px solid rgba(212,175,55,0.9);
+	color: var(--gold, #D4AF37);
+}
+
+.hero .btn:hover { background: var(--gold-dark, #B8860B); transform: translateY(-2px); }
+.hero .btn-sec:hover { background: rgba(212,175,55,0.06); }
+
+@media (max-width: 600px) {
+	.hero { padding: 2.5rem 1rem; }
+	.hero h2 { font-size: 1.6rem; }
+	.hero p { font-size: 0.98rem; }
+}
+
