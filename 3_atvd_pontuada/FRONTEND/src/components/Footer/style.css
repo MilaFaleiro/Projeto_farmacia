@@ -30,6 +30,42 @@
   color: var(--branco);
 }
 
+/* === Navbar: marca com logo (dimensões responsivas, sombra e espaçamento) === */
+.navbar .brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.navbar__logo {
+  display: inline-block;
+  height: 48px;           /* ajuste padrão, escala em mobile via media query */
+  width: auto;
+  border-radius: 8px;
+  padding: 4px;
+  background: rgba(255,255,255,0.03); /* leve fundo para contraste */
+  box-shadow: 0 8px 24px rgba(9,34,56,0.08);
+  object-fit: contain;
+}
+
+/* adaptações em telas pequenas */
+@media (max-width: 480px) {
+  .navbar__logo {
+    height: 40px;
+    padding: 3px;
+  }
+  .navbar h1 {
+    font-size: 1.1rem;
+  }
+}
+
+/* se preferir a logo menor ao lado do título em tablets/desktop */
+@media (min-width: 481px) and (max-width: 1024px) {
+  .navbar__logo {
+    height: 44px;
+  }
+}
+
 /* === Footer === */
 .footer {
   background-color: var(--preto-claro);

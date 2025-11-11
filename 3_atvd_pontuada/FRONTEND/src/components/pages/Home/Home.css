@@ -1,6 +1,6 @@
 .hero {
-  background: linear-gradient(180deg, #000 0%, #111 100%);
-  color: var(--branco);
+  background: linear-gradient(180deg, #0069d1 0%, #ff8520 100%);
+  color: #0f0f0f;
   text-align: center;
   padding: 6rem 2rem;
   display: flex;
@@ -12,17 +12,17 @@
 .hero::before {
   content: "";
   position: absolute;
-  width: 400px;
-  height: 400px;
-  background: radial-gradient(circle, rgba(212, 175, 55, 0.2) 0%, transparent 70%);
-  top: -50px;
-  right: -50px;
+  width: 380px;
+  height: 380px;
+  background: radial-gradient(circle, rgba(250, 37, 4, 0.993) 0%, transparent 70%);
+  top: -40px;
+  right: -40px;
   border-radius: 50%;
 }
 
 .hero h2 {
   font-size: 2.5rem;
-  color: var(--dourado);
+  color: #ff2200; /* pastel coral */
   text-transform: uppercase;
   letter-spacing: 2px;
   margin-bottom: 1rem;
@@ -31,34 +31,35 @@
 
 .hero p {
   font-size: 1.2rem;
-  color: var(--cinza);
+  color: #000000; /* soft gray */
   max-width: 600px;
   margin: 0 auto 2rem;
   z-index: 1;
 }
 
 .hero .btn {
-  background-color: var(--dourado);
-  color: var(--preto);
+  background-color: #A7E9D2; /* pastel mint */
+  color: #12322a; /* dark text for contrast */
   font-weight: bold;
   padding: 0.8rem 1.5rem;
   margin: 0.5rem;
   border-radius: 6px;
   transition: all 0.3s ease;
+  border: none;
 }
 
 .hero .btn:hover {
-  background-color: #e5c65f;
+  background-color: #8CE0BE;
   transform: translateY(-3px);
 }
 
 .hero .btn-sec {
   background: transparent;
-  color: var(--dourado);
-  border: 2px solid var(--dourado);
+  color: #FFB3A7;
+  border: 2px solid #FFB3A7;
 }
 
 .hero .btn-sec:hover {
-  background: var(--dourado);
-  color: var(--preto);
+  background: #FFB3A7;
+  color: #1f1f1f;
 }
